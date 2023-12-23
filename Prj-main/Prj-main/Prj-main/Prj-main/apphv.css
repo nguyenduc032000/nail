@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.containerimg2 {
+    width: 100%;
+    text-align: center;
+}
+.containerimg2 h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.hero-content {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+.hero-content img{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+}

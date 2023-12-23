@@ -1,0 +1,270 @@
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+#topbar {
+    background-color: #c8a57e;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+#topbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#topbar a:hover {
+text-decoration: underline;
+}
+#topbar.material-icons{
+    
+    font-size: 22px; /* Thay đổi kích thước theo nhu cầu của bạn */
+    vertical-align: middle;
+    margin-right: 0px; /* Khoảng cách giữa biểu tượng và tiêu đề */
+}
+.right{
+    margin: 0;
+    float: right;
+}
+.site-navigation{
+    background-color: #d7c1a7;
+    padding: 10px;
+    color: white;
+}
+.navbar-header{
+    height: 100px;
+}
+.collapse-navbar-collapse{
+    text-align: right;
+    color: white;
+}
+.collapse-navbar-collapse a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar-header{
+   border-radius: 50%;
+}
+.img1{
+    height: auto;
+    max-width: 100px;
+    margin-left: 100px;
+}
+.img2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    height: 50vh;
+}
+.DStt{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-navbar-nav{
+    text-align: left;
+}
+.text1{
+    text-align: center;
+}
+.text1-1{
+    font-size: 33px;
+}
+.image-list {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.image-list li {
+    margin-right: 10px;
+}
+.image-list li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.image-list img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.button-a{
+    display: inline-block;
+    background-color: #b7752b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    height: auto;
+    line-height: 1;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+}
+.bottom3{
+    background-image: url(https://nailroom.vn/wp-content/uploads/2019/09/Background_BW.jpg);
+    padding: 10px;
+    color: white;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 0 30px;
+}
+.imgKH{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.imgKH li p{
+    color: #fdfcfc;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.imgKH img{
+    margin-left: 100px;
+}
+.home-test-content{
+    color: #000;
+    font-size: 15px;
+    background: url(images/qupte.png) no-repeat top left;
+    padding: 14px 28px;
+    max-width: 800px;
+    margin: 0 auto 11px;
+    margin-top: 80px;
+}
+.home-test-name{
+    color: #b7752b;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.home-test-image{
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.home-test-name2{
+    color: #b7752b;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section-title-center{
+    color: #000;
+    margin-top: 20px;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+    font-weight: 300;
+    text-align: center;
+}
+.grid-url{
+    margin-top: 36px;
+}
+.button-a{
+    display: inline-block;
+    background-color: #b7752b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    height: auto;
+    line-height: 1;
+    border: 0;
+}
+.button-b{
+    margin-left: 25px;
+    color: #b7752b;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.home-services{
+    overflow: hidden;
+    background: #EFCEC9;
+    padding: 60px 0;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+}
+.section-title{
+    color: #b7752b;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+    font-weight: 300;
+}
+.section-title span{
+    color: #000;
+}
+.svg-inline--fa{
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    width: 0.625em;
+}
+.bottom-bar{
+    background-color: #d7c1a7;
+    color: black;
+    padding: 10px;
+}
+.footer-showrooms{
+    color: #000;
+}
+.footer-1{
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 15px;
+}
+.footer-1 img{
+    display: block;
+    margin: 0 auto 30px;
+    height: auto;
+    max-width: 100%;
+}
+.flexabc {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+  }
+.footer{
+    text-align: center;
+}
+.footer a img{
+    text-align: center;
+    margin-left: 15px;
+}
+.footer-3{
+    text-align: center;
+}
+
