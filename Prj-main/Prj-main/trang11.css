@@ -1,0 +1,210 @@
+
+.container{
+	padding-bottom: 0;
+	position: relative;
+	z-index: 1;
+	margin-left: 300px;
+	margin-bottom: 50px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.section-subtitle{
+	color: white;
+	font-family: "Pacifico";
+	font-size: 80px;
+	margin-bottom: -36px;
+}
+
+
+.section-subtitle2{
+	color: #b7752b;
+	font-size: 20px;
+	
+}
+
+
+#nailit{
+	margin-bottom: 130px;
+}
+
+
+
+.grid-inner{
+	margin: 50px;
+	display : flex;
+}
+
+
+.grid-image {
+	position: relative;
+}
+
+.grid-content {
+    background: #fff;
+    position: relative;
+    top: 39px;
+    right: 0;
+    padding: 54px 54px 30px 31px;
+    width: 63%;
+    float: right;
+}
+
+.row{
+    justify-content: center;
+    gap: 20px;
+}
+
+.row .service-div {
+    width: 33%;
+}
+
+.service-image img{
+	width: 100%;
+	height: auto;
+}
+.service-image{
+	position: relative;
+    border: 10p solid #F4DDD9;
+	margin: 50px;
+}
+.service-item:hover .service-hover{
+	opacity: 1;
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+.service-item{
+	margin-bottom: 30px;
+}
+.section-title{
+	color: #b7752b;
+	font-size: 33px;
+	text-transform: uppercase;
+	margin-top: 50px;
+	font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+#servicecalltoaction{
+	margin: 80px 0 0;
+	background: url(images/cta-bg2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.row{
+    justify-content: center;
+    gap: 20px;
+}
+
+.row .service-div {
+    width: 33%;
+}
+
+.service-image img{
+	width: 100%;
+	height: auto;
+}
+.service-image{
+	position: relative;
+    border: 10p solid #F4DDD9;
+}
+.service-item:hover .service-hover{
+	opacity: 1;
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+.service-item{
+	margin-bottom: 30px;
+}
+.service-hover{
+	background-color: rgba(145, 20, 57, 0.4);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	opacity: 0;
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+.service-hover-content{
+	width: 100%;
+	text-align: center;
+}
+
+.service-listing-detail{
+	text-align: center;
+}
+.service-name{
+	margin: 20px 0;
+}
+.service-name a{
+	color: #000; /* text color */
+	font-size: 20px;
+	
+}
+.button-c:hover{
+	background-color: #b7752b;
+	color: #fff; 
+	text-decoration: none;
+}
+.button-c{
+	display: inline-block;
+	background-color: #fff;
+	color: #b7752b; 
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 25px;
+}
+.booking-button{
+	margin-top: 20px;
+}
+
+.cta-content h2{
+	color: #b7752b; 
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.cta-content{
+	background: url(images/cta-bg.png) no-repeat right bottom #EFCEC9;
+	padding: 70px;
+	text-align: center;
+	position: relative;
+	color: #000; 
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.button-a {
+    display: inline-block;
+    background-color: #b7752b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    height: auto;
+    line-height: 1;
+    border: 0;
+    text-decoration: none;
+}

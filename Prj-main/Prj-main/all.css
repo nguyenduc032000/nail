@@ -1,0 +1,51 @@
+#topbar {
+    background-color: #c8a57e;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+#topbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#topbar a:hover {
+text-decoration: underline;
+}
+#topbar.material-icons{
+    
+    font-size: 22px; /* Thay đổi kích thước theo nhu cầu của bạn */
+    vertical-align: middle;
+    margin-right: 0px; /* Khoảng cách giữa biểu tượng và tiêu đề */
+}
+.right{
+    margin: 0;
+    float: right;
+}
+.site-navigation{
+    background-color: #d7c1a7;
+    padding: 10px;
+    color: white;
+}
+.navbar-header{
+    height: 100px;
+}
+.collapse-navbar-collapse{
+    text-align: right;
+    color: white;
+}
+.collapse-navbar-collapse a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar-header{
+   border-radius: 50%;
+}
+.img1{
+    height: auto;
+    max-width: 100px;
+    margin-left: 100px;
+}

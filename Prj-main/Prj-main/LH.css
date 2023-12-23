@@ -1,0 +1,128 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(250, 239, 237, 255);
+}
+
+.fonttext {
+  color: #fff;
+  font-family: "Pacifico";
+  font-size: 80px;
+  margin-bottom: -50px;
+}
+.section-title {
+  color: #b7752b;
+  font-size: 33px;
+  text-transform: uppercase;
+  margin: 0 0 60px;
+  font-weight: 300;
+}
+.section-title span {
+  color: black;
+}
+
+.showrooms-listing {
+  width: 1300;
+  height: 1102px;
+  text-align: center;
+}
+.showroom {
+  width: calc(33.3333% - 30px);
+  margin: 0 15px 30px;
+}
+element.style {
+  background-image: url(https://nailroom.vn/wp-content/uploads/2022/11/28947577_1842171736080812_2964487575536125169_o.jpg);
+}
+element.style {
+  background-image: url(https://nailroom.vn/wp-content/uploads/2022/03/120195764_2473656249599021_1806368951333619328_n.jpg);
+}
+element.style {
+  background-image: url(https://nailroom.vn/wp-content/uploads/2022/03/z3271859402673_e4b77b2….jpg);
+}
+.showrooms-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.showroom > span {
+  width: 403px;
+  height: 53px;
+  position: relative;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  padding: 38px;
+  padding-top: 38px;
+  padding-right: 38px;
+  padding-bottom: 38px;
+  color: #fff;
+  font-size: 33px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.showroom > span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+}
+.showroom ul {
+  padding-left: 17px;
+}
+.showroom ul li {
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+ul {
+  font-size: 14px;
+  text-align: left;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.button-a {
+    display: inline-block;
+    background-color: #b7752b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    height: auto;
+    line-height: 1;
+    border: 0;
+}
+.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea {
+    border: 1px solid #e3e3e3;
+    background: #fff;
+    width: 100%;
+    padding: 17px 20px;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.container4{margin-top: -450px;}
